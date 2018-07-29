@@ -1,0 +1,33 @@
+{
+  "name": "color7",
+  "displayName": "Color7",
+  "description": "saki7's color theme",
+  "version": "0.0.1",
+  "author": "Nana Sakisaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saki7/color7/issues"
+  },
+  "homepage": "https://github.com/saki7/color7",
+  "publisher": "saki7",
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Color7",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Color7-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saki7/color7.git"
+  },
+  "private": true
+}
