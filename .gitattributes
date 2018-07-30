@@ -1,3 +1,8 @@
 # Set default behavior to automatically normalize line endings.
 * text=auto
 
+/package.json linguist-vendored
+/package-lock.json linguist-vendored
+/Gemfile.lock linguist-vendored
+/*.md linguist-documentation
+
