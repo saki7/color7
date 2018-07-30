@@ -1112,7 +1112,8 @@
 		},
 		{
 			"scope": [
-				"support.class.ruby"
+				"support.class.ruby",
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -1157,16 +1158,18 @@
 				"keyword.control.pseudo-method.ruby",
 				"keyword.control.rails.association",
 				"keyword.control.rails.model.attribute",
-				"keyword.control.rails.route.scope"
+				"keyword.control.rails.route.scope",
+				"keyword.control.rails.job.attribute"
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
 			}
 		},
 		{
-			"name": "Rails - Model - Filter",
+			"name": "Rails - Model - Filter/Callback",
 			"scope": [
-				"keyword.control.rails.model.filter"
+				"keyword.control.rails.model.filter",
+				"keyword.control.rails.job.callback"
 			],
 			"settings": {
 				"foreground": "#569cd6"

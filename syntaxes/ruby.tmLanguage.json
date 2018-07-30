@@ -3,7 +3,7 @@
   "name": "Rails",
   "scopeName": "source.color7",
 
-  "injectionSelector": "source.ruby",
+  "injectionSelector": "source.ruby - comment",
 
   "patterns": [
     {
@@ -29,6 +29,14 @@
         {
           "name": "keyword.control.rails.route.scope",
           "match": "\\b(?:scope)\\b"
+        },
+        {
+          "name": "keyword.control.rails.job.attribute",
+          "match": "\\b(?:queue_as)\\b"
+        },
+        {
+          "name": "keyword.control.rails.job.callback",
+          "match": "\\b(?:before|after)_(?:perform)\\b"
         },
         {
           "name": "keyword.control.rails.support.checker",
