@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Rails",
+  "scopeName": "source.color7",
+
+  "injectionSelector": "source.ruby",
+
+  "patterns": [
+    {
+      "include": "#keywords"
+    }
+  ],
+
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.rails.association",
+          "match": "\\b(?:belongs_to|has_one|has_many)\\b"
+        },
+        {
+          "name": "keyword.control.rails.model.attribute",
+          "match": "\\b(?:has_secure_token)\\b"
+        },
+        {
+          "name": "keyword.control.rails.model.filter",
+          "match": "\\b(?:before|after)_(?:initialize|save|create)\\b"
+        },
+        {
+          "name": "keyword.control.rails.route.scope",
+          "match": "\\b(?:scope)\\b"
+        },
+        {
+          "name": "keyword.control.rails.support.checker",
+          "match": "(?:blank|empty|present|any|none|some|all)\\?"
+        }
+      ]
+    }
+  }
+}

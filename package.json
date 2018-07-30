@@ -21,7 +21,15 @@
       {
         "label": "Color7",
         "uiTheme": "vs-dark",
-        "path": "./themes/Color7-color-theme.json"
+        "path": "./themes/Color7.tmTheme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ruby",
+        "scopeName": "source.color7",
+        "injectTo": ["source.ruby"],
+        "path": "./syntaxes/ruby.tmLanguage.json"
       }
     ]
   },
