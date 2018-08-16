@@ -1145,7 +1145,8 @@
 			"scope": [
 				"keyword.control",
 				"keyword.other.special-method",
-				"punctuation.separator.inheritance.ruby"
+				"punctuation.separator.inheritance.ruby",
+				"keyword.control.rails.model.type_traits"
 			],
 			"settings": {
 				"foreground": "#C586C0"

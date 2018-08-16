@@ -27,6 +27,10 @@
           "match": "\\b(?:before|after)_(?:initialize|save|create)\\b"
         },
         {
+          "name": "keyword.control.rails.model.type_traits",
+          "match": "\\b(?:class_methods|included|delegate|with_options)\\b"
+        },
+        {
           "name": "keyword.control.rails.route.scope",
           "match": "\\b(?:scope)\\b"
         },
